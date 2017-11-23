@@ -12,16 +12,21 @@ header {
 }
 
 h1 {
+  color: #fff;
   font-size: 2rem;
   margin: 0;
+  padding: .5em 0 0;
   text-align: center;
 }
 
 .nav {
   margin: 0;
+  padding: 0;
   list-style-type: none;
+  text-align: center;
 }
 
-li {
-  font-size: 1.125rem
+.nav li {
+  font-size: 1.125rem;
+  display: inline-block;
 }
