@@ -9,6 +9,7 @@ body {
 
 header {
   background-color: #d05c2e;
+  position: relative;
 }
 
 h1 {
@@ -29,4 +30,33 @@ h1 {
 .nav li {
   font-size: 1.125rem;
   display: inline-block;
+}
+
+.nav a {
+  color: #fff;
+  display: inline-block;
+  padding: .4rem 0;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+div h1 {
+  border-bottom: 2px solid #a63f38;
+}
+
+.border {
+  border-left: 2px solid #a63f38;
+  border-right: 2px solid #a63f38;
+}
+
+.nav a:hover {
+  background-color: #a63f38;
+}
+
+.grain-left {
+  display: block;
+  width: 40px
+  position: absolute;
+  right: 10px
+  bottom: 10px
 }
