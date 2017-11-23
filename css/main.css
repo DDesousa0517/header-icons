@@ -9,7 +9,17 @@ body {
 
 header {
   background-color: #d05c2e;
+}
+
+h1 {
   font-size: 2rem;
+  margin: 0;
+  text-align: center;
+}
+
+.nav {
+  margin: 0;
+  list-style-type: none;
 }
 
 li {
