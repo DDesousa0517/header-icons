@@ -58,7 +58,7 @@ div h1 {
   border-right: 2px solid #a63f38;
 }
 
-.nav li:hover {
+.nav a:hover {
   background-color: #a63f38;
 }
 
